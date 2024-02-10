@@ -16,13 +16,17 @@ header{
 }
 
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: 0 auto;
+}
+.navbar .start{
+  float: left;
 }
 
 .navbar a:hover {

@@ -1,23 +1,79 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 ;
+}
+
 body {
     margin:0 auto;
     background-color: rgb(34, 34, 48);
     color: white;
 }
-header{
-    margin: 0 auto;
+
+li, a, button{
+  color: white;
+  text-decoration: none;
 }
-.navbar {
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color:  rgb(20, 20, 46);;
+}
+
+.logo{
+  cursor: pointer;
+  list-style: none;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav_links li, a {
+  transition: all .3s ease 0s;
+}
+
+.nav_links li, a:hover {
+  color: aqua;
+}
+.nav_links a.active{
+  color: aqua;
+}
+
+button{
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: rgb(34, 34, 48);
+  transition: all .3s ease 0s;
+}
+
+button:hover{
+  background-color: aqua;
+}
+
+
+/* .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed;
+  border-radius: 15px;
+  margin: 0 auto;
   top: 0;
-  width: 100%;
+  width: 95%;
   min-width: 300px;  
 }
 
 .navbar a {
+  display: inline-flex;
   float: right;
-  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -25,8 +81,8 @@ header{
   font-size: 17px;
   margin: 0 auto;
 }
-.navbar .start{
-  float: left;
+.logo{
+  float: inline-start;
 }
 
 .navbar a:hover {
@@ -34,29 +90,7 @@ header{
   color: black;
 }
 
-.main {
-  padding-top: 20px;
-  margin-top: 20px;
-  height: 100%;
-}
-.bottom {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-.bottom a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.bottom a:hover {
+a:active{
   background: #ddd;
   color: black;
-}
+} */

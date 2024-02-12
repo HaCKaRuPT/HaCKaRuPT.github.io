@@ -3,12 +3,11 @@ body {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  background-color: #a5a5a5;
 }
-
 header{
   padding-top: 10px;
 }
-
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -16,7 +15,6 @@ header{
   margin: 0 auto;
   border-radius: 25px;
 }
-
 .navbar a {
   display: inline-flex;
   text-align: center;
@@ -25,12 +23,12 @@ header{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
-
 .navbar a:hover, a.active {
   background: #ddd;
   color: black;
-  
 }
-
+img{
+  height: 2rem;
+}

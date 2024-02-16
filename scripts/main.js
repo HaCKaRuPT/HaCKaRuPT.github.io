@@ -2,7 +2,7 @@
 const toggleBtn = document.querySelector('.toggle_btn')
 const toggleBtnIcon = document.querySelector('.toggle_btn i')
 const dropDownMenu = document.querySelector('.dropdown_menu')
-const hideSection = document.querySelector('section')
+const hideSection = document.querySelector('main')
 
 toggleBtn.onclick = function() {
     hideSection.classList.toggle('hide')

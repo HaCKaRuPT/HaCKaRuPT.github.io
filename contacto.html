@@ -41,7 +41,25 @@
 		<main>
 			<section id="contacto">
 				<h1>Entre em contacto:</h1>
-				<p>!!! Editar Formulario de Contacto !!! </p>
+				<form action="submit" method="post" id="conts">
+					<div class="cntForm">
+						<div class="cntNome">
+							<label for="txtNome">Nome:</label>
+							<input type="text" name="txtNome" id="txtNome" placeholder="O seu Nome">
+						</div>
+						<div class="cntNome">
+							<label for="txtEmail">Email:</label>
+							<input type="text" name="txtEmail" id="txtEmail" placeholder="O Seu Email">
+						</div>
+						<div class="cntNome">
+							<label for="txtMensagem">Mensagem:</label>
+							<textarea name="txtMensagem" id="txtMensagem" cols="30" rows="10" placeholder="Deixe a sua mensagem ..."></textarea>
+						</div>
+						<div class="cntNome">
+							<input type="button" value="Submeter">
+						</div>
+					</div>
+				</form>
 			</section>
 		</main>
 	</body>
